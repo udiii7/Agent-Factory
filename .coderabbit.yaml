@@ -1,0 +1,6 @@
+auto_review: true
+summary: concise
+languages:
+-python
+-c/c++
+-javascript
