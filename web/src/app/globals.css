@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('/agents_factory.png');
+  background-size: 1870px;          /* makes the image fill the screen */
+  background-position: center;     /* keeps focus centered */
+  background-repeat: no-repeat;    /* no tiling */
+  background-attachment: fixed;    /* parallax-like stable background */
+}
