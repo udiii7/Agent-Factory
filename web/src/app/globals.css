@@ -1,9 +1,22 @@
+html,
 body {
   margin: 0;
   padding: 0;
-  background-image: url('/agents_factory.png');
-  background-size: 1870px;          /* makes the image fill the screen */
-  background-position: center;     /* keeps focus centered */
-  background-repeat: no-repeat;    /* no tiling */
-  background-attachment: fixed;    /* parallax-like stable background */
+  height: 100%;
+}
+
+/* This MUST win any specificity battle */
+body {
+  /* Use a transparent/fallback color (avoid a black flash while loading) */
+  background-color: transparent;
+  /* Background image served from /public — make it responsive */
+  background-image: url("/agents_factory.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+* {
+  box-sizing: border-box;
 }
